@@ -2,7 +2,7 @@
 
 idk...
 
-* `    * Wall` enables all questionable warnings (aka the errors people should care about). Enables:
+* `-Wall` enables all questionable warnings (aka the errors people should care about). Enables:
 
     * Waddress
 
@@ -58,4 +58,16 @@ idk...
 
     * Wunused-variable
 
-- placeholder
+- `-Wextra` enables some more extra warnings:
+
+    * Wclobbered  
+    * Wempty-body  
+    * Wignored-qualifiers 
+    * Wmissing-field-initializers  
+    * Wmissing-parameter-type (C only)  
+    * Wold-style-declaration (C only)  
+    * Woverride-init  
+    * Wsign-compare  
+    * Wtype-limits  
+    * Wuninitialized (only with -O1 and above)  
+    * Wunused-parameter (only with -Wunused or -Wall)  
