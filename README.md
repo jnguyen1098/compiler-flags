@@ -2,60 +2,60 @@
 
 idk...
 
-- `    -Wall` enables all questionable warnings (aka the errors people should care about). Enables:
+* `    * Wall` enables all questionable warnings (aka the errors people should care about). Enables:
 
-    -Waddress
+    * Waddress
 
-    -Warray-bounds (only with -O2)
+    * Warray-bounds (only with -O2)
 
-    -Wc++0x-compat
+    * Wc++0x-compat
 
-    -Wchar-subscripts
+    * Wchar-subscripts
 
-    -Wimplicit-int
+    * Wimplicit-int
 
-    -Wimplicit-function-declaration
+    * Wimplicit-function-declaration
 
-    -Wcomment
+    * Wcomment
 
-    -Wformat 
+    * Wformat 
 
-    -Wmain (only for C/ObjC and unless -ffreestanding)
+    * Wmain (only for C/ObjC and unless -ffreestanding)
 
-    -Wmissing-braces
+    * Wmissing-braces
 
-    -Wnonnull
+    * Wnonnull
 
-    -Wparentheses
+    * Wparentheses
 
-    -Wpointer-sign
+    * Wpointer-sign
 
-    -Wreorder 
+    * Wreorder 
 
-    -Wreturn-type
+    * Wreturn-type
 
-    -Wsequence-point
+    * Wsequence-point
 
-    -Wsign-compare (only in C++)
+    * Wsign-compare (only in C++)
 
-    -Wstrict-aliasing
+    * Wstrict-aliasing
 
-    -Wstrict-overflow=1
+    * Wstrict-overflow=1
 
-    -Wswitch
+    * Wswitch
 
-    -Wtrigraphs
+    * Wtrigraphs
 
-    -Wuninitialized (only with -O1 and above)
+    * Wuninitialized (only with -O1 and above)
 
-    -Wunknown-pragmas
+    * Wunknown-pragmas
 
-    -Wunused-function
+    * Wunused-function
 
-    -Wunused-label
+    * Wunused-label
 
-    -Wunused-value
+    * Wunused-value
 
-    -Wunused-variable
+    * Wunused-variable
 
 - placeholder
