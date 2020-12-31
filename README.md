@@ -1,6 +1,6 @@
 # Compiler Flags
 
-idk...
+## Sweeping Flags
 
 * `-Wall` enables all questionable warnings (aka the errors people should care about). Enables:
 
@@ -45,3 +45,29 @@ idk...
     * `Wtype-limits`: limited range of data type makes comparison obsolete (for example checking if a `char` variable is `< 128` will always `return` `1`)
     * `Wuninitialized` (only with -O1 and above): see definition in `-Wall`
     * `Wunused-parameter` (only with -Wunused or -Wall): self-explanatory...
+
+- `-pedantic` or `-Wpedantic`: ensure strict compliance to ISO C(++) and reject all programs that use forbidden expressions. One may bypass this in very specific cases (such as `asm` using double dunder `__` before and after the offending construct; e.g. `__asm__` instead of `asm`).
+
+## Meta Reporting Flags
+
+- `-Werror`: make all warnings errors. May use `-Werror=` to turn a specific warning into an error.
+
+- `-Wfatal-errors`: stop compilation at first error
+
+- `-fmax-errors=n`: max errors before `gcc` quits
+
+- `-w`: stop all warnings
+
+- `-fsyntax-only`: only check for syntax errors, but nothing more than that
+
+## Obscure Flags
+
+- `-Wcast-align`: casting of pointers may cause alignment issues
+
+- `-Wcast-qual`: casting of pointers discards qualifier
+
+- `-Wformat=2`: adds additional format checks (`-Wall` only uses `-Wformat`)
+
+## References:
+
+https://stackoverflow.com/questions/18071209/how-to-enable-the-highest-warning-level-in-gcc-compilerboost-is-heavily-used/18071680
